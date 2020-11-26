@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "ffe601b4-ae2d-4f7c-a1ec-f6e021d157fc",
+		"name": "restcountries_postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get countries by alpha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.eu/rest/v2/alpha/co",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"eu"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"alpha",
+						"co"
+					]
+				},
+				"description": "get countries by alpha"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
