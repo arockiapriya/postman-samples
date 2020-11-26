@@ -9,7 +9,7 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./apitest/restcountries_postman.postman_collection.json
+          collection: restcountries_postman.postman_collection.json
 
 workflows:
   main:
