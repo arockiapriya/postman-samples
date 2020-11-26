@@ -7,6 +7,20 @@
 	"item": [
 		{
 			"name": "get countries by alpha",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a9a9749d-d4f8-4596-9a4e-32a4d6db9e6d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
